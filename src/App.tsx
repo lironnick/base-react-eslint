@@ -1,15 +1,6 @@
-import React, { useEffect } from 'react'
-// import api from '@monorepo/axios-config'
-
-// import { Container } from './styles';
+import React from 'react'
 
 const App: React.FC = () => {
-  // useEffect(() => {
-  //   api.get('/').then(response => {
-  //     console.log(response.data)
-  //   })
-  // }, [])
-
   return <h1>index</h1>
 }
 
