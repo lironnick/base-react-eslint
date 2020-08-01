@@ -1,7 +1,16 @@
 import React from 'react'
 
+import Layout from './components/Layout'
+import GlobalStyles from './styles/GloboStyles'
+
 const App: React.FC = () => {
-  return <h1>index</h1>
+  return (
+    <>
+      <Layout />
+
+      <GlobalStyles />
+    </>
+  )
 }
 
 export default App
